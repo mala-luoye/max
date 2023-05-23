@@ -1,1 +1,14 @@
-@import "antd/dist/reset.css"
+@import "antd/dist/reset.css";
+
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: #f6f7fc;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
