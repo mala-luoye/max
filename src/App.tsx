@@ -1,7 +1,11 @@
 import React from "react"
+import type { FC } from "react"
+import { Button } from "antd"
 
-function App() {
-  return <div className="App">app组件</div>
-}
+const App: FC = () => (
+  <div className="App">
+    <Button type="primary">Button</Button>
+  </div>
+)
 
 export default App
